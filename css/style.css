@@ -691,10 +691,12 @@ Works
   transition: 0.25s;
   margin-bottom: 20px;
 }
+
 .news_checked_icon {
-  width: 20px;
+  max-width: 20px !important;
   height: 20px;
 }
+
 .news_card:hover {
   box-shadow: 0 0 15px gray;
 }
